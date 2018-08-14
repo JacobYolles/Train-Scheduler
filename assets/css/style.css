@@ -1,0 +1,26 @@
+.schedule-container {
+    min-width: 800px;
+}
+
+.input-container {
+    min-width: 800px;
+}
+
+body {
+       background: url('../img/tokyo.jpg') no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+  }
+
+table {
+    border-collapse: separate;
+    border-spacing: 6px;
+}
+
+.jumbotron {
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    min-width: 800px;
+}
