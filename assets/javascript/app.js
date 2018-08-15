@@ -17,6 +17,6 @@ var database = firebase.database();
 
 // CREATE AN ON CLICK FUNCTION: 
 
-
+// DATABASE .REF .push
 
 }); // DOCUMENT READY FUNCTION END.
