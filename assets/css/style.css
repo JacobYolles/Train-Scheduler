@@ -6,6 +6,12 @@
     min-width: 800px;
 }
 
+#mainJumbotron {
+    color: white;
+    background: rgba(121, 70, 13, 0.877);
+}
+
+
 body {
       
        -webkit-background-size: cover;

@@ -19,6 +19,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- MATERALIZE LINK: -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--MOMENT LINK: -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <!-- JAVASCRIPT TO PAGE: -->
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
@@ -26,9 +28,9 @@
     <!-- Train Tracker -->
     <div class="container">
         <!-- Jumbotron -->
-        <div class="jumbotron" style="color: white">
+        <div class="jumbotron" id ="mainJumbotron">
           <h1 class="text-center">Anytime is Train Time</h1>
-          <h3 class="text-center">Choo Choo Chee Chee</h3>
+          <h5 class="text-center">Choo Choo. Chee Chee.</h5>
         </div>
         <div class="row">
           <div class="col-lg-12">
@@ -62,22 +64,27 @@
               <div class="panel-body">
                 <!-- Entry Form -->
                 <form>
+                  <!-- TRAIN NAME -->
                   <div class="form-group">
                     <label for="train-name-input">Train Name</label>
-                    <input class="form-control" id="train-name-input" type="text">
+                    <input class="form-control" id="train-name-input" type="text"> <!-- ID HERE -->
                   </div>
+                  <!-- DESTINATION -->
                   <div class="form-group">
                     <label for="destination-input">Destination</label>
-                    <input class="form-control" id="destination-input" type="text">
+                    <input class="form-control" id="destination-input" type="text"> <!-- ID HERE -->
                   </div>
+                  <!-- FIRST TRAIN TIME -->
                   <div class="form-group">
-                    <label for="start-input">First Train Time (HH:mm - military time)</label>
-                    <input class="form-control" id="start-input" type="text">
+                    <label for="first-train-input">First Train Time (HH:mm - Military Time)</label>
+                    <input class="form-control" id="first-train-input" type="text"> <!-- ID HERE -->
                   </div>
+                  <!-- FREQUENCY -->
                   <div class="form-group">
-                    <label for="rate-input">Frequency</label>
-                    <input class="form-control" id="rate-input" type="text">
+                    <label for="frequency-input">Frequency</label>
+                    <input class="form-control" id="frequency-input" type="text"> <!-- ID HERE -->
                   </div>
+                  <!-- SUBMIT BUTTON -->
                   <button class="btn btn-primary" id="add-train-btn" type="submit">Submit</button>
                 </form>
               </div>
