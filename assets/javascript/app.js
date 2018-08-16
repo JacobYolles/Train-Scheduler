@@ -58,7 +58,7 @@ function getData(snapshot) {
   var remainder = difference % parseInt(data.rate);
   console.log(remainder);
   console.log( "      ");
-  var minutesAway = parseInt(data.rate) - remainder; // THIS FIX SHOULDN'T WORK
+  var minutesAway = parseInt(data.rate) - remainder; 
   console.log(minutesAway);
   console.log( "      ");
   var nextArrival = moment().add(minutesAway, "minutes");
