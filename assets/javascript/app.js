@@ -73,7 +73,7 @@ function getData(snapshot) {
   var start = data.start;
   var frequency = data.rate;
 
-  var tableRow = $("<tr>");
+  var tableRow = $("<tr id='the-table'>");
 
   var tableData = "<td>" + name + "</td>" +
                   "<td>" + dest + "</td>" +
